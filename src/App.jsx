@@ -295,10 +295,13 @@ function App() {
                 </div>
               </div>
             </>
-          ) : null}
+          ) : (
+            <p className="w-full text-center">
+              Yout don't have any account, Feel free to create new one!
+            </p>
+          )}
         </main>
       </div>
-
       <footer className="w-full max-w-[1200px] relative flex items-center justify-between">
         <p>&copy; 2024 spectro | Created by Mohammad Bilal Mansuri</p>
         <div className="flex items-center gap-2">
