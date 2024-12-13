@@ -7,6 +7,7 @@ import {
   Keypair,
 } from "@solana/web3.js";
 import { Buffer } from "buffer";
+import { ethers } from "ethers";
 
 // Ethereum Transaction
 export async function sendEthereumTransaction(privateKey, to, amount) {
